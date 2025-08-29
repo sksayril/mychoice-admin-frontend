@@ -105,7 +105,7 @@ const Login: React.FC<LoginProps> = ({ onSwitchToSignup }) => {
           </form>
 
           {/* Switch to Signup */}
-          <div className="mt-6 text-center">
+          {/* <div className="mt-6 text-center">
             <button
               onClick={onSwitchToSignup}
               className="flex items-center justify-center w-full text-blue-600 hover:text-blue-700 font-medium"
@@ -113,7 +113,7 @@ const Login: React.FC<LoginProps> = ({ onSwitchToSignup }) => {
               Don't have an account? Sign up
               <ArrowRight className="w-4 h-4 ml-2" />
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Footer */}
