@@ -192,20 +192,20 @@ export const getImageUrl = (imagePath: string): string => {
   
   // If it starts with /uploads, add the base URL
   if (imagePath.startsWith('/uploads/')) {
-    const fullUrl = `http://localhost:3100${imagePath}`;
+    const fullUrl = `https://api.my-choice.co.in${imagePath}`;
     console.log('getImageUrl: Uploads path detected:', fullUrl);
     return fullUrl;
   }
   
   // If it doesn't start with /, add /uploads/ prefix
   if (!imagePath.startsWith('/')) {
-    const fullUrl = `http://localhost:3100/uploads/${imagePath}`;
+    const fullUrl = `https://api.my-choice.co.in/uploads/${imagePath}`;
     console.log('getImageUrl: Relative path detected:', fullUrl);
     return fullUrl;
   }
   
   // Default case
-  const fullUrl = `http://localhost:3100${imagePath}`;
+  const fullUrl = `https://api.my-choice.co.in${imagePath}`;
   console.log('getImageUrl: Default case:', fullUrl);
   return fullUrl;
 };

@@ -1,6 +1,6 @@
 // Image utility functions
 
-const BACKEND_BASE_URL = 'http://localhost:3100';
+const BACKEND_BASE_URL = 'https://api.my-choice.co.in';
 
 /**
  * Get the full URL for an employee picture
