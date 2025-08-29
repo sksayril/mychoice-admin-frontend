@@ -20,7 +20,7 @@ import {
 import { createProductFormData } from '../utils/apiUtils';
 
 // API base configuration
-const API_BASE_URL = 'http://localhost:3100/api';
+const API_BASE_URL = 'https://api.my-choice.co.in/api';
 
 // Create axios instance
 const api = axios.create({
